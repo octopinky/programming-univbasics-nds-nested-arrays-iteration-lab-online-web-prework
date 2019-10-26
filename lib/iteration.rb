@@ -15,10 +15,13 @@ def find_greater_pair(src)
   results = []
   
   src.each do |numbers|
-    larger_number
-    results << numbers[0]>numbers[1]
+    larger_number=numbers[0]
+    if numbers[0]<numbers[1]
+      larger_number=numbers[1]
+    end
+    results << larger_number
   
-  results # implicitly return results
+  results 
 end
 
 def total_even_pairs(src)
