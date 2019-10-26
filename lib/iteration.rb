@@ -2,7 +2,7 @@ def join_ingredients(src)
   results = []
   
   src.each do |ingredient_array|
-    results << "I love #{src[0]} and #{src[1]} on my pizza"
+    results << "I love #{ingredient_array[0]} and #{ingredient_array[1]} on my pizza"
   end
   
   results # implicitly return results
