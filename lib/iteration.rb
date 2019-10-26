@@ -5,7 +5,7 @@ def join_ingredients(src)
     results << "I love #{src[0]} and #{src[1]} on my pizza"
   end
   
-  results # return results
+  results # implicitly return results
 end
 
 def find_greater_pair(src)
