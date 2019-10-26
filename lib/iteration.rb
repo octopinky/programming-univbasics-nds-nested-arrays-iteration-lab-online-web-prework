@@ -32,13 +32,13 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-  results = []
-  
-  src.each do |numbers|
-    even_pair=numbers
-    if numbers[0]%2=0 && numbers[1]%2=0
-    results << numbers
+
+  total = 0
+  src.each do |number_pair_array|
+    if (number_pair_array[0] % 2 == 0) && (number_pair_array[1] % 2 == 0)
+      ## add these values to the running total
     end
   end
-  results 
+
+  total
 end
