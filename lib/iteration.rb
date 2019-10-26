@@ -15,7 +15,8 @@ def find_greater_pair(src)
   results = []
   
   src.each do |numbers|
-    results << 
+    larger_number
+    results << numbers[0]>numbers[1]
   
   results # implicitly return results
 end
