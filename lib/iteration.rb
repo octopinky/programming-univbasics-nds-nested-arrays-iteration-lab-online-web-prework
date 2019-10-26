@@ -20,7 +20,7 @@ def find_greater_pair(src)
       larger_number=numbers[1]
     end
     results << larger_number
-  
+  end
   results 
 end
 
