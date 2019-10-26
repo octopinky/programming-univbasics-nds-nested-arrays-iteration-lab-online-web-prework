@@ -36,7 +36,7 @@ def total_even_pairs(src)
   total = 0
   src.each do |number_pair_array|
     if (number_pair_array[0] % 2 == 0) && (number_pair_array[1] % 2 == 0)
-      ## add these values to the running total
+      total=numbers[0]+numbers[1]
     end
   end
 
