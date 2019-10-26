@@ -35,11 +35,10 @@ def total_even_pairs(src)
   results = []
   
   src.each do |numbers|
-    even_pair=numbers[0]
-    if numbers[0]<numbers[1]
-      larger_number=numbers[1]
+    even_pair=numbers
+    if numbers[0]%2=0 && numbers[1]%2=0
+    results << numbers
     end
-    results << larger_number
   end
   results 
 end
