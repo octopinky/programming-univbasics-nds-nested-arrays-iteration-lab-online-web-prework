@@ -4,11 +4,16 @@ def join_ingredients(src)
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
   #
-  # "I love (inner array element 0) and (inner array element 1) on my pizza""
+    # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  new_arr="I love #{src[0]} and #{src[1]} on my pizza"
-  puts new_arr
+  results = []
+  
+  src.each do |ingredient_array|
+    ## lets build a new sentence with ingredient array, and push that sentence into results
+  end
+  
+  results # return results
 end
 
 def find_greater_pair(src)
