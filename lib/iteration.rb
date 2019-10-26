@@ -10,7 +10,7 @@ def join_ingredients(src)
   results = []
   
   src.each do |ingredient_array|
-    ## lets build a new sentence with ingredient array, and push that sentence into results
+    results << "I love #{src[0]} and #{src[1]} on my pizza"
   end
   
   results # return results
